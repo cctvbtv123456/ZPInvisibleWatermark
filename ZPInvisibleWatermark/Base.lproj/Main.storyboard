@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="111.png" translatesAutoresizingMaskIntoConstraints="NO" id="VtJ-ef-944">
+                                <rect key="frame" x="20" y="40" width="335" height="487"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyV-oC-aFY">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="hxJ-Mt-GcJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="导入图片">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="exportImageBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K9k-f6-1i9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTS-FD-UFo">
+                                <rect key="frame" x="0.0" y="587" width="375" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ccf-Bt-FQX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="导入图片(需要白底)">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectImageBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ced-fo-qlE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmY-NB-u7e">
+                                <rect key="frame" x="0.0" y="547" width="187.5" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.63817917121132695" blue="0.48583027079616037" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Sg8-0o-MOC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="添加水印">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addWaterMarkBtnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dn6-zQ-1CY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSK-dE-aVZ">
+                                <rect key="frame" x="187.5" y="547" width="187.5" height="40"/>
+                                <color key="backgroundColor" red="0.63320466015720867" green="1" blue="0.43116871120367362" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PbI-eX-gcW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title="显示水印"/>
+                                <connections>
+                                    <action selector="showWaterMarkClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gJI-GL-a8q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zSK-dE-aVZ" secondAttribute="trailing" id="0Fb-6K-aMy"/>
+                            <constraint firstItem="zSK-dE-aVZ" firstAttribute="width" secondItem="OmY-NB-u7e" secondAttribute="width" id="1er-Ks-EDU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fyV-oC-aFY" secondAttribute="bottom" id="1s0-vM-pzW"/>
+                            <constraint firstItem="OmY-NB-u7e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7xx-4t-6U9"/>
+                            <constraint firstItem="VtJ-ef-944" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="FlP-PC-Jwb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VtJ-ef-944" secondAttribute="trailing" constant="20" id="Q1s-Oz-GRB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eTS-FD-UFo" secondAttribute="trailing" id="QmP-Uh-jie"/>
+                            <constraint firstItem="fyV-oC-aFY" firstAttribute="top" secondItem="eTS-FD-UFo" secondAttribute="bottom" id="Til-hR-WDt"/>
+                            <constraint firstItem="fyV-oC-aFY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UbA-P9-trY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fyV-oC-aFY" secondAttribute="trailing" id="ex2-pN-vMe"/>
+                            <constraint firstItem="VtJ-ef-944" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="iZg-so-jBH"/>
+                            <constraint firstItem="eTS-FD-UFo" firstAttribute="top" secondItem="OmY-NB-u7e" secondAttribute="bottom" id="mOL-p5-wu2"/>
+                            <constraint firstItem="eTS-FD-UFo" firstAttribute="top" secondItem="zSK-dE-aVZ" secondAttribute="bottom" id="mcR-fX-9yA"/>
+                            <constraint firstItem="eTS-FD-UFo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rCt-HI-gGx"/>
+                            <constraint firstItem="zSK-dE-aVZ" firstAttribute="leading" secondItem="OmY-NB-u7e" secondAttribute="trailing" id="rq7-gR-exN"/>
+                            <constraint firstItem="OmY-NB-u7e" firstAttribute="top" secondItem="VtJ-ef-944" secondAttribute="bottom" constant="20" id="zSw-A4-Ayz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="VtJ-ef-944" id="ye6-wv-fHr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="111.png" width="586" height="840"/>
+    </resources>
+</document>

@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D15DB3B7E87A6A2CC68F205B24B503A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */; };
+		2E3CFBF271CA8EBC4FAD79D90288D7B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		5365C5E655C8AD82166FF0E22B1930CB /* Pods-ZPInvisibleWatermarkUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C01F7B4CEEE9FD339402744EA0DA977 /* Pods-ZPInvisibleWatermarkUITests-dummy.m */; };
+		536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; };
+		7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */; };
+		8726A94C3E24ED4D795343459C4D1CD1 /* Pods-ZPInvisibleWatermark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D60BF4CBD3F7E606804C0831E6CD8811 /* Pods-ZPInvisibleWatermark-dummy.m */; };
+		897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		9D2785C53CF3F1AEFD3ED86F236F37F1 /* Pods-ZPInvisibleWatermarkTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE611517120DCA2CC388D3EE9A203E9C /* Pods-ZPInvisibleWatermarkTests-dummy.m */; };
+		A50E358DD2A6B7660A8415C92C55CD6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */; };
+		E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65DE8320D98F4CBDA8DFB63A71FDE6CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F2DFA9BDCC6675C2546793A69E5CC;
+			remoteInfo = MBProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059F9C594E112374EDA72311F76AD470 /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		0909584A425232286E8301164A937217 /* Pods-ZPInvisibleWatermarkTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermarkTests-frameworks.sh"; sourceTree = "<group>"; };
+		094BD4BD45CCC94A512B886522916E7F /* libPods-ZPInvisibleWatermarkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPInvisibleWatermarkTests.a"; path = "libPods-ZPInvisibleWatermarkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEE1FBB86457E8F75073CA1AB49032B /* Pods-ZPInvisibleWatermark-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPInvisibleWatermark-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		12DCD416C44F03C619433AC66CAD9B47 /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermarkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		293626300CFDE276F15D1414CD759DB7 /* Pods-ZPInvisibleWatermarkUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPInvisibleWatermarkUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C01F7B4CEEE9FD339402744EA0DA977 /* Pods-ZPInvisibleWatermarkUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPInvisibleWatermarkUITests-dummy.m"; sourceTree = "<group>"; };
+		2F7C369520711C66BB6F4C25C3F50C9D /* Pods-ZPInvisibleWatermarkUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPInvisibleWatermarkUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		344A7B001DDFB8AFA1BFB6C31656B908 /* Pods-ZPInvisibleWatermark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermark.debug.xcconfig"; sourceTree = "<group>"; };
+		409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		42CCC067201CC0394387735C15CAE620 /* Pods-ZPInvisibleWatermarkUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermarkUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4F904C66660AB5F73D55D0EA64421AF3 /* Pods-ZPInvisibleWatermark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermark.release.xcconfig"; sourceTree = "<group>"; };
+		52402DFE3818D5478429F9C655610CD4 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F6EE054B5B105D564BD7E4C39AC855 /* libPods-ZPInvisibleWatermark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPInvisibleWatermark.a"; path = "libPods-ZPInvisibleWatermark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		8542E82642CE98FA5A7AC647C184DAA0 /* Pods-ZPInvisibleWatermark-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPInvisibleWatermark-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A752A4382EE61B36A4B34A82086E7DC /* libPods-ZPInvisibleWatermarkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZPInvisibleWatermarkUITests.a"; path = "libPods-ZPInvisibleWatermarkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		A09163822CF0D47D1F04C935B788344F /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermarkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		AEA6825411C036170833BB42F2E83650 /* Pods-ZPInvisibleWatermark-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermark-resources.sh"; sourceTree = "<group>"; };
+		B46D72766268EC3023A0AC089AA9A76C /* Pods-ZPInvisibleWatermarkTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPInvisibleWatermarkTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C075CA1F2E8C2054DB742D90F6E2516C /* Pods-ZPInvisibleWatermarkTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermarkTests-resources.sh"; sourceTree = "<group>"; };
+		C22A131F03281B2EFAA5DA5018C28A33 /* Pods-ZPInvisibleWatermark-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermark-frameworks.sh"; sourceTree = "<group>"; };
+		C35CF4ACA0E87F38BB907A3513BB48D7 /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPInvisibleWatermarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D60BF4CBD3F7E606804C0831E6CD8811 /* Pods-ZPInvisibleWatermark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPInvisibleWatermark-dummy.m"; sourceTree = "<group>"; };
+		D8F1C1EBEB22B684B155DBA297975618 /* Pods-ZPInvisibleWatermarkTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPInvisibleWatermarkTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5488353989F7562E8CCBDF2A516170A /* Pods-ZPInvisibleWatermarkUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPInvisibleWatermarkUITests-resources.sh"; sourceTree = "<group>"; };
+		FE611517120DCA2CC388D3EE9A203E9C /* Pods-ZPInvisibleWatermarkTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPInvisibleWatermarkTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC978EA59E9F751F979B9CE81D6F6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50E358DD2A6B7660A8415C92C55CD6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE15315833FAE423A895AFA5FAAB69DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D15DB3B7E87A6A2CC68F205B24B503A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70D5A9333A4B2455694DB766B14DBBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E3CFBF271CA8EBC4FAD79D90288D7B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C76817FA5353D989D7BC33E8C5997B5 /* CoreGraphics.framework in Frameworks */,
+				93F12B05D8333C37D9CBEA3D1782CC04 /* Foundation.framework in Frameworks */,
+				7291E906AE8A3C1F92183154FE65DCDD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */,
+				30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */,
+				2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */,
+				9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */,
+				AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		35CF0C54A7AC6867DD0FE145820831A9 /* Pods-ZPInvisibleWatermarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8F1C1EBEB22B684B155DBA297975618 /* Pods-ZPInvisibleWatermarkTests-acknowledgements.markdown */,
+				B46D72766268EC3023A0AC089AA9A76C /* Pods-ZPInvisibleWatermarkTests-acknowledgements.plist */,
+				FE611517120DCA2CC388D3EE9A203E9C /* Pods-ZPInvisibleWatermarkTests-dummy.m */,
+				0909584A425232286E8301164A937217 /* Pods-ZPInvisibleWatermarkTests-frameworks.sh */,
+				C075CA1F2E8C2054DB742D90F6E2516C /* Pods-ZPInvisibleWatermarkTests-resources.sh */,
+				C35CF4ACA0E87F38BB907A3513BB48D7 /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */,
+				059F9C594E112374EDA72311F76AD470 /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */,
+			);
+			name = "Pods-ZPInvisibleWatermarkTests";
+			path = "Target Support Files/Pods-ZPInvisibleWatermarkTests";
+			sourceTree = "<group>";
+		};
+		4A9DD5A42B890E9BB93D915FA39840E9 /* Pods-ZPInvisibleWatermarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F7C369520711C66BB6F4C25C3F50C9D /* Pods-ZPInvisibleWatermarkUITests-acknowledgements.markdown */,
+				293626300CFDE276F15D1414CD759DB7 /* Pods-ZPInvisibleWatermarkUITests-acknowledgements.plist */,
+				2C01F7B4CEEE9FD339402744EA0DA977 /* Pods-ZPInvisibleWatermarkUITests-dummy.m */,
+				42CCC067201CC0394387735C15CAE620 /* Pods-ZPInvisibleWatermarkUITests-frameworks.sh */,
+				F5488353989F7562E8CCBDF2A516170A /* Pods-ZPInvisibleWatermarkUITests-resources.sh */,
+				12DCD416C44F03C619433AC66CAD9B47 /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */,
+				A09163822CF0D47D1F04C935B788344F /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */,
+			);
+			name = "Pods-ZPInvisibleWatermarkUITests";
+			path = "Target Support Files/Pods-ZPInvisibleWatermarkUITests";
+			sourceTree = "<group>";
+		};
+		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A4DBD434EA75DD3EDD3494C46AE6968 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				409899CE1143F81E8130E2069D59605B /* CoreGraphics.framework */,
+				12992E853CAE14F2102525E0D84ADAB5 /* Foundation.framework */,
+				5F7BDB2580B244756CFA046131516EF2 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5836A44A75C427EBF4739C55E2315758 /* Pods */,
+				F454F96DFE61EC9115A2D96466D15EA1 /* Products */,
+				981E1BFA2B9411F6EBAC4CBEB424CB6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		981E1BFA2B9411F6EBAC4CBEB424CB6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB6976E725155E6F772D9C9491CE04A6 /* Pods-ZPInvisibleWatermark */,
+				35CF0C54A7AC6867DD0FE145820831A9 /* Pods-ZPInvisibleWatermarkTests */,
+				4A9DD5A42B890E9BB93D915FA39840E9 /* Pods-ZPInvisibleWatermarkUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DB6976E725155E6F772D9C9491CE04A6 /* Pods-ZPInvisibleWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				0CEE1FBB86457E8F75073CA1AB49032B /* Pods-ZPInvisibleWatermark-acknowledgements.markdown */,
+				8542E82642CE98FA5A7AC647C184DAA0 /* Pods-ZPInvisibleWatermark-acknowledgements.plist */,
+				D60BF4CBD3F7E606804C0831E6CD8811 /* Pods-ZPInvisibleWatermark-dummy.m */,
+				C22A131F03281B2EFAA5DA5018C28A33 /* Pods-ZPInvisibleWatermark-frameworks.sh */,
+				AEA6825411C036170833BB42F2E83650 /* Pods-ZPInvisibleWatermark-resources.sh */,
+				344A7B001DDFB8AFA1BFB6C31656B908 /* Pods-ZPInvisibleWatermark.debug.xcconfig */,
+				4F904C66660AB5F73D55D0EA64421AF3 /* Pods-ZPInvisibleWatermark.release.xcconfig */,
+			);
+			name = "Pods-ZPInvisibleWatermark";
+			path = "Target Support Files/Pods-ZPInvisibleWatermark";
+			sourceTree = "<group>";
+		};
+		F454F96DFE61EC9115A2D96466D15EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52402DFE3818D5478429F9C655610CD4 /* libMBProgressHUD.a */,
+				53F6EE054B5B105D564BD7E4C39AC855 /* libPods-ZPInvisibleWatermark.a */,
+				094BD4BD45CCC94A512B886522916E7F /* libPods-ZPInvisibleWatermarkTests.a */,
+				8A752A4382EE61B36A4B34A82086E7DC /* libPods-ZPInvisibleWatermarkUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897E2BE6A305D26BEF1B828D55F0F1DC /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				7E4305B404C5BA5156646C69578ADD62 /* Sources */,
+				F9AC974E3329F79899A7B3BE290FC894 /* Frameworks */,
+				1B1D84BCA4F7BDAE79C37DF88C9DCE23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 52402DFE3818D5478429F9C655610CD4 /* libMBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BED7CCF0719C77D896CAD797D43B96C4 /* Pods-ZPInvisibleWatermarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 668447FB7AD7AE9468AEFF970596D010 /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermarkUITests" */;
+			buildPhases = (
+				47288EA63E3560AFB63E7E193781CB06 /* Sources */,
+				F70D5A9333A4B2455694DB766B14DBBB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZPInvisibleWatermarkUITests";
+			productName = "Pods-ZPInvisibleWatermarkUITests";
+			productReference = 8A752A4382EE61B36A4B34A82086E7DC /* libPods-ZPInvisibleWatermarkUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD260FBFC8DF903F645FE0DE0D373DE9 /* Pods-ZPInvisibleWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5ED8A42548E1561B54AA68FDEF687D /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermark" */;
+			buildPhases = (
+				7A2983416A5EF052A69E085BCFFCB949 /* Sources */,
+				EE15315833FAE423A895AFA5FAAB69DB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587EBECFAF3F861638DF030F73FC677A /* PBXTargetDependency */,
+			);
+			name = "Pods-ZPInvisibleWatermark";
+			productName = "Pods-ZPInvisibleWatermark";
+			productReference = 53F6EE054B5B105D564BD7E4C39AC855 /* libPods-ZPInvisibleWatermark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FBCB16EBD660B803728698615DD1E444 /* Pods-ZPInvisibleWatermarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E7DEBC1AE0DE461D9CB5D0F113F433 /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermarkTests" */;
+			buildPhases = (
+				CD6CADC7621B8D58C2E06CF6BBA5851D /* Sources */,
+				8EC978EA59E9F751F979B9CE81D6F6AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZPInvisibleWatermarkTests";
+			productName = "Pods-ZPInvisibleWatermarkTests";
+			productReference = 094BD4BD45CCC94A512B886522916E7F /* libPods-ZPInvisibleWatermarkTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F454F96DFE61EC9115A2D96466D15EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */,
+				DD260FBFC8DF903F645FE0DE0D373DE9 /* Pods-ZPInvisibleWatermark */,
+				FBCB16EBD660B803728698615DD1E444 /* Pods-ZPInvisibleWatermarkTests */,
+				BED7CCF0719C77D896CAD797D43B96C4 /* Pods-ZPInvisibleWatermarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47288EA63E3560AFB63E7E193781CB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5365C5E655C8AD82166FF0E22B1930CB /* Pods-ZPInvisibleWatermarkUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2983416A5EF052A69E085BCFFCB949 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8726A94C3E24ED4D795343459C4D1CD1 /* Pods-ZPInvisibleWatermark-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4305B404C5BA5156646C69578ADD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5229F5125ACD420659E7B2D19BB30A8 /* MBProgressHUD-dummy.m in Sources */,
+				536F7D0550F5FD9F5869CEC995CFEE9B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6CADC7621B8D58C2E06CF6BBA5851D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2785C53CF3F1AEFD3ED86F236F37F1 /* Pods-ZPInvisibleWatermarkTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587EBECFAF3F861638DF030F73FC677A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 586F2DFA9BDCC6675C2546793A69E5CC /* MBProgressHUD */;
+			targetProxy = 65DE8320D98F4CBDA8DFB63A71FDE6CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000EFF17B2F9F4744BF333320719B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B6FA96FAA611A62279C49F6E01C059F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3691EFF605EB29787F8A46C5B6BE1D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		470E109397ECE8A7C237CE8C00B4E2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DCD416C44F03C619433AC66CAD9B47 /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63C241ACE84F051EB7FDC6F163F825C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35CF4ACA0E87F38BB907A3513BB48D7 /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AFC20CA2856820CADBAA1E5386C9B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 344A7B001DDFB8AFA1BFB6C31656B908 /* Pods-ZPInvisibleWatermark.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0858758A6613AC90FA0C0ED4E04F14D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09163822CF0D47D1F04C935B788344F /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C44FF1034271A0DF9174FA3E91B6D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C79B031D470C8C1C9C5F6506EA9D15E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059F9C594E112374EDA72311F76AD470 /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8251FB4D4B62BA2859AE2C25D2680C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F904C66660AB5F73D55D0EA64421AF3 /* Pods-ZPInvisibleWatermark.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E7DEBC1AE0DE461D9CB5D0F113F433 /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C241ACE84F051EB7FDC6F163F825C1 /* Debug */,
+				C79B031D470C8C1C9C5F6506EA9D15E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6FA96FAA611A62279C49F6E01C059F /* Debug */,
+				3691EFF605EB29787F8A46C5B6BE1D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5ED8A42548E1561B54AA68FDEF687D /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFC20CA2856820CADBAA1E5386C9B08 /* Debug */,
+				C8251FB4D4B62BA2859AE2C25D2680C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		668447FB7AD7AE9468AEFF970596D010 /* Build configuration list for PBXNativeTarget "Pods-ZPInvisibleWatermarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				470E109397ECE8A7C237CE8C00B4E2AE /* Debug */,
+				B0858758A6613AC90FA0C0ED4E04F14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B44251FA50022CA55D4B2FBE1468C76 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000EFF17B2F9F4744BF333320719B004 /* Debug */,
+				C44FF1034271A0DF9174FA3E91B6D082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DA32CFF500F753C417CB7F0 /* libPods-ZPInvisibleWatermarkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54CFE18F82731904D9DD14F8 /* libPods-ZPInvisibleWatermarkTests.a */; };
+		7F45B78C11F833EF0908B5F9 /* libPods-ZPInvisibleWatermark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54A13833E2F1C4671075B26 /* libPods-ZPInvisibleWatermark.a */; };
+		D091E77B228E547B00B4FD27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E77A228E547B00B4FD27 /* AppDelegate.m */; };
+		D091E77E228E547B00B4FD27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E77D228E547B00B4FD27 /* ViewController.m */; };
+		D091E781228E547B00B4FD27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D091E77F228E547B00B4FD27 /* Main.storyboard */; };
+		D091E783228E547E00B4FD27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D091E782228E547E00B4FD27 /* Assets.xcassets */; };
+		D091E786228E547E00B4FD27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D091E784228E547E00B4FD27 /* LaunchScreen.storyboard */; };
+		D091E789228E547E00B4FD27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E788228E547E00B4FD27 /* main.m */; };
+		D091E793228E547E00B4FD27 /* ZPInvisibleWatermarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E792228E547E00B4FD27 /* ZPInvisibleWatermarkTests.m */; };
+		D091E79E228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E79D228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.m */; };
+		D091E7AD228E549E00B4FD27 /* InvisibleWatermark.m in Sources */ = {isa = PBXBuildFile; fileRef = D091E7AC228E549E00B4FD27 /* InvisibleWatermark.m */; };
+		D091E7AF228E8EB100B4FD27 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = D091E7AE228E8EB100B4FD27 /* 111.png */; };
+		EA4DCF3FA64B317AF4BD28CB /* libPods-ZPInvisibleWatermarkUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B53687E70AC98A3FDDDC0A88 /* libPods-ZPInvisibleWatermarkUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D091E78F228E547E00B4FD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D091E76E228E547B00B4FD27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D091E775228E547B00B4FD27;
+			remoteInfo = ZPInvisibleWatermark;
+		};
+		D091E79A228E547E00B4FD27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D091E76E228E547B00B4FD27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D091E775228E547B00B4FD27;
+			remoteInfo = ZPInvisibleWatermark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C32F8985322B67A8A3F264D /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermarkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermarkTests/Pods-ZPInvisibleWatermarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		54CFE18F82731904D9DD14F8 /* libPods-ZPInvisibleWatermarkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPInvisibleWatermarkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648BC81682A84A5B904E3AA1 /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermarkUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermarkUITests/Pods-ZPInvisibleWatermarkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6DB19C2B64B907B23B8E284E /* Pods-ZPInvisibleWatermark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermark/Pods-ZPInvisibleWatermark.debug.xcconfig"; sourceTree = "<group>"; };
+		92979CB70930AE16B7E68F5C /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermarkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermarkTests/Pods-ZPInvisibleWatermarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		93CBC759C37D10B9CACC15C4 /* Pods-ZPInvisibleWatermark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermark.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermark/Pods-ZPInvisibleWatermark.release.xcconfig"; sourceTree = "<group>"; };
+		9B5F1FCFB6E38B93ED47C58B /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPInvisibleWatermarkUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZPInvisibleWatermarkUITests/Pods-ZPInvisibleWatermarkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B53687E70AC98A3FDDDC0A88 /* libPods-ZPInvisibleWatermarkUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPInvisibleWatermarkUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D091E776228E547B00B4FD27 /* ZPInvisibleWatermark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPInvisibleWatermark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D091E779228E547B00B4FD27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D091E77A228E547B00B4FD27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D091E77C228E547B00B4FD27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D091E77D228E547B00B4FD27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D091E780228E547B00B4FD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D091E782228E547E00B4FD27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D091E785228E547E00B4FD27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D091E787228E547E00B4FD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D091E788228E547E00B4FD27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D091E78E228E547E00B4FD27 /* ZPInvisibleWatermarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPInvisibleWatermarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D091E792228E547E00B4FD27 /* ZPInvisibleWatermarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPInvisibleWatermarkTests.m; sourceTree = "<group>"; };
+		D091E794228E547E00B4FD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D091E799228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPInvisibleWatermarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D091E79D228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPInvisibleWatermarkUITests.m; sourceTree = "<group>"; };
+		D091E79F228E547E00B4FD27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D091E7AB228E549E00B4FD27 /* InvisibleWatermark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvisibleWatermark.h; sourceTree = "<group>"; };
+		D091E7AC228E549E00B4FD27 /* InvisibleWatermark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvisibleWatermark.m; sourceTree = "<group>"; };
+		D091E7AE228E8EB100B4FD27 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		F54A13833E2F1C4671075B26 /* libPods-ZPInvisibleWatermark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPInvisibleWatermark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D091E773228E547B00B4FD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F45B78C11F833EF0908B5F9 /* libPods-ZPInvisibleWatermark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E78B228E547E00B4FD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA32CFF500F753C417CB7F0 /* libPods-ZPInvisibleWatermarkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E796228E547E00B4FD27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4DCF3FA64B317AF4BD28CB /* libPods-ZPInvisibleWatermarkUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		862EC746DBCD1AFD9E298075 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DB19C2B64B907B23B8E284E /* Pods-ZPInvisibleWatermark.debug.xcconfig */,
+				93CBC759C37D10B9CACC15C4 /* Pods-ZPInvisibleWatermark.release.xcconfig */,
+				92979CB70930AE16B7E68F5C /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */,
+				3C32F8985322B67A8A3F264D /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */,
+				9B5F1FCFB6E38B93ED47C58B /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */,
+				648BC81682A84A5B904E3AA1 /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B239734FCE744DE738F5C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54A13833E2F1C4671075B26 /* libPods-ZPInvisibleWatermark.a */,
+				54CFE18F82731904D9DD14F8 /* libPods-ZPInvisibleWatermarkTests.a */,
+				B53687E70AC98A3FDDDC0A88 /* libPods-ZPInvisibleWatermarkUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D091E76D228E547B00B4FD27 = {
+			isa = PBXGroup;
+			children = (
+				D091E778228E547B00B4FD27 /* ZPInvisibleWatermark */,
+				D091E791228E547E00B4FD27 /* ZPInvisibleWatermarkTests */,
+				D091E79C228E547E00B4FD27 /* ZPInvisibleWatermarkUITests */,
+				D091E777228E547B00B4FD27 /* Products */,
+				862EC746DBCD1AFD9E298075 /* Pods */,
+				8B239734FCE744DE738F5C97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D091E777228E547B00B4FD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D091E776228E547B00B4FD27 /* ZPInvisibleWatermark.app */,
+				D091E78E228E547E00B4FD27 /* ZPInvisibleWatermarkTests.xctest */,
+				D091E799228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D091E778228E547B00B4FD27 /* ZPInvisibleWatermark */ = {
+			isa = PBXGroup;
+			children = (
+				D091E7AE228E8EB100B4FD27 /* 111.png */,
+				D091E779228E547B00B4FD27 /* AppDelegate.h */,
+				D091E77A228E547B00B4FD27 /* AppDelegate.m */,
+				D091E7AB228E549E00B4FD27 /* InvisibleWatermark.h */,
+				D091E7AC228E549E00B4FD27 /* InvisibleWatermark.m */,
+				D091E77C228E547B00B4FD27 /* ViewController.h */,
+				D091E77D228E547B00B4FD27 /* ViewController.m */,
+				D091E77F228E547B00B4FD27 /* Main.storyboard */,
+				D091E782228E547E00B4FD27 /* Assets.xcassets */,
+				D091E784228E547E00B4FD27 /* LaunchScreen.storyboard */,
+				D091E787228E547E00B4FD27 /* Info.plist */,
+				D091E788228E547E00B4FD27 /* main.m */,
+			);
+			path = ZPInvisibleWatermark;
+			sourceTree = "<group>";
+		};
+		D091E791228E547E00B4FD27 /* ZPInvisibleWatermarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D091E792228E547E00B4FD27 /* ZPInvisibleWatermarkTests.m */,
+				D091E794228E547E00B4FD27 /* Info.plist */,
+			);
+			path = ZPInvisibleWatermarkTests;
+			sourceTree = "<group>";
+		};
+		D091E79C228E547E00B4FD27 /* ZPInvisibleWatermarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D091E79D228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.m */,
+				D091E79F228E547E00B4FD27 /* Info.plist */,
+			);
+			path = ZPInvisibleWatermarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D091E775228E547B00B4FD27 /* ZPInvisibleWatermark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D091E7A2228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermark" */;
+			buildPhases = (
+				9ED397F532E44227ABE4CCD3 /* [CP] Check Pods Manifest.lock */,
+				D091E772228E547B00B4FD27 /* Sources */,
+				D091E773228E547B00B4FD27 /* Frameworks */,
+				D091E774228E547B00B4FD27 /* Resources */,
+				BA32C797A1C35B1F3CCCC0BA /* [CP] Embed Pods Frameworks */,
+				C67C4168527F92F3EE971B79 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZPInvisibleWatermark;
+			productName = ZPInvisibleWatermark;
+			productReference = D091E776228E547B00B4FD27 /* ZPInvisibleWatermark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D091E78D228E547E00B4FD27 /* ZPInvisibleWatermarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D091E7A5228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermarkTests" */;
+			buildPhases = (
+				F620015C0F98F45717A7DD9E /* [CP] Check Pods Manifest.lock */,
+				D091E78A228E547E00B4FD27 /* Sources */,
+				D091E78B228E547E00B4FD27 /* Frameworks */,
+				D091E78C228E547E00B4FD27 /* Resources */,
+				FB6CBDD2B517D62E4432D88F /* [CP] Embed Pods Frameworks */,
+				4969D4ADD25D28D0E1B1680B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D091E790228E547E00B4FD27 /* PBXTargetDependency */,
+			);
+			name = ZPInvisibleWatermarkTests;
+			productName = ZPInvisibleWatermarkTests;
+			productReference = D091E78E228E547E00B4FD27 /* ZPInvisibleWatermarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D091E798228E547E00B4FD27 /* ZPInvisibleWatermarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D091E7A8228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermarkUITests" */;
+			buildPhases = (
+				B8034EDE30B9E9BB7544723B /* [CP] Check Pods Manifest.lock */,
+				D091E795228E547E00B4FD27 /* Sources */,
+				D091E796228E547E00B4FD27 /* Frameworks */,
+				D091E797228E547E00B4FD27 /* Resources */,
+				7948D320B0DF4625A2467E36 /* [CP] Embed Pods Frameworks */,
+				0F36C148F933F8E5090EC30B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D091E79B228E547E00B4FD27 /* PBXTargetDependency */,
+			);
+			name = ZPInvisibleWatermarkUITests;
+			productName = ZPInvisibleWatermarkUITests;
+			productReference = D091E799228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D091E76E228E547B00B4FD27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Justin;
+				TargetAttributes = {
+					D091E775228E547B00B4FD27 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D091E78D228E547E00B4FD27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D091E775228E547B00B4FD27;
+					};
+					D091E798228E547E00B4FD27 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D091E775228E547B00B4FD27;
+					};
+				};
+			};
+			buildConfigurationList = D091E771228E547B00B4FD27 /* Build configuration list for PBXProject "ZPInvisibleWatermark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D091E76D228E547B00B4FD27;
+			productRefGroup = D091E777228E547B00B4FD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D091E775228E547B00B4FD27 /* ZPInvisibleWatermark */,
+				D091E78D228E547E00B4FD27 /* ZPInvisibleWatermarkTests */,
+				D091E798228E547E00B4FD27 /* ZPInvisibleWatermarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D091E774228E547B00B4FD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D091E786228E547E00B4FD27 /* LaunchScreen.storyboard in Resources */,
+				D091E7AF228E8EB100B4FD27 /* 111.png in Resources */,
+				D091E783228E547E00B4FD27 /* Assets.xcassets in Resources */,
+				D091E781228E547B00B4FD27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E78C228E547E00B4FD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E797228E547E00B4FD27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F36C148F933F8E5090EC30B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermarkUITests/Pods-ZPInvisibleWatermarkUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4969D4ADD25D28D0E1B1680B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermarkTests/Pods-ZPInvisibleWatermarkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7948D320B0DF4625A2467E36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermarkUITests/Pods-ZPInvisibleWatermarkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED397F532E44227ABE4CCD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPInvisibleWatermark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8034EDE30B9E9BB7544723B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPInvisibleWatermarkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA32C797A1C35B1F3CCCC0BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermark/Pods-ZPInvisibleWatermark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67C4168527F92F3EE971B79 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermark/Pods-ZPInvisibleWatermark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F620015C0F98F45717A7DD9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZPInvisibleWatermarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6CBDD2B517D62E4432D88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZPInvisibleWatermarkTests/Pods-ZPInvisibleWatermarkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D091E772228E547B00B4FD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D091E77E228E547B00B4FD27 /* ViewController.m in Sources */,
+				D091E789228E547E00B4FD27 /* main.m in Sources */,
+				D091E7AD228E549E00B4FD27 /* InvisibleWatermark.m in Sources */,
+				D091E77B228E547B00B4FD27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E78A228E547E00B4FD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D091E793228E547E00B4FD27 /* ZPInvisibleWatermarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D091E795228E547E00B4FD27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D091E79E228E547E00B4FD27 /* ZPInvisibleWatermarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D091E790228E547E00B4FD27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D091E775228E547B00B4FD27 /* ZPInvisibleWatermark */;
+			targetProxy = D091E78F228E547E00B4FD27 /* PBXContainerItemProxy */;
+		};
+		D091E79B228E547E00B4FD27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D091E775228E547B00B4FD27 /* ZPInvisibleWatermark */;
+			targetProxy = D091E79A228E547E00B4FD27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D091E77F228E547B00B4FD27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D091E780228E547B00B4FD27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D091E784228E547E00B4FD27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D091E785228E547E00B4FD27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D091E7A0228E547E00B4FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D091E7A1228E547E00B4FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D091E7A3228E547E00B4FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB19C2B64B907B23B8E284E /* Pods-ZPInvisibleWatermark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = ZPInvisibleWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D091E7A4228E547E00B4FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CBC759C37D10B9CACC15C4 /* Pods-ZPInvisibleWatermark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CGEWW2EV8;
+				INFOPLIST_FILE = ZPInvisibleWatermark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D091E7A6228E547E00B4FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92979CB70930AE16B7E68F5C /* Pods-ZPInvisibleWatermarkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNLSTR73NT;
+				INFOPLIST_FILE = ZPInvisibleWatermarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPInvisibleWatermark.app/ZPInvisibleWatermark";
+			};
+			name = Debug;
+		};
+		D091E7A7228E547E00B4FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C32F8985322B67A8A3F264D /* Pods-ZPInvisibleWatermarkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNLSTR73NT;
+				INFOPLIST_FILE = ZPInvisibleWatermarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZPInvisibleWatermark.app/ZPInvisibleWatermark";
+			};
+			name = Release;
+		};
+		D091E7A9228E547E00B4FD27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5F1FCFB6E38B93ED47C58B /* Pods-ZPInvisibleWatermarkUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNLSTR73NT;
+				INFOPLIST_FILE = ZPInvisibleWatermarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPInvisibleWatermark;
+			};
+			name = Debug;
+		};
+		D091E7AA228E547E00B4FD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648BC81682A84A5B904E3AA1 /* Pods-ZPInvisibleWatermarkUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TNLSTR73NT;
+				INFOPLIST_FILE = ZPInvisibleWatermarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = justin.ZPInvisibleWatermarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZPInvisibleWatermark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D091E771228E547B00B4FD27 /* Build configuration list for PBXProject "ZPInvisibleWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D091E7A0228E547E00B4FD27 /* Debug */,
+				D091E7A1228E547E00B4FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D091E7A2228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D091E7A3228E547E00B4FD27 /* Debug */,
+				D091E7A4228E547E00B4FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D091E7A5228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D091E7A6228E547E00B4FD27 /* Debug */,
+				D091E7A7228E547E00B4FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D091E7A8228E547E00B4FD27 /* Build configuration list for PBXNativeTarget "ZPInvisibleWatermarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D091E7A9228E547E00B4FD27 /* Debug */,
+				D091E7AA228E547E00B4FD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D091E76E228E547B00B4FD27 /* Project object */;
+}
